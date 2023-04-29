@@ -1,7 +1,7 @@
 import React from 'react'
 import Base from '../Base/Base'
 import { useHistory } from 'react-router-dom'
-
+//function
 function Nopage() {
     const history = useHistory()
   return (

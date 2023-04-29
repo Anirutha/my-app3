@@ -1,11 +1,11 @@
 import React from "react";
 import { useHistory } from 'react-router-dom'
-
+//Button
 const Base = ({title, description, children}) => {
   const history = useHistory();
   return (
     <div className='main-component base-component'>
-
+       
       <button
       onClick={()=>history.push("/")}
       >Dashboard</button>

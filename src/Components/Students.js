@@ -2,7 +2,7 @@
 import Base from '../Base/Base'
 
 import { useHistory } from 'react-router-dom';
-
+//function
 function Students({students, setStudents}) {
    const history = useHistory();
     // delete functionality

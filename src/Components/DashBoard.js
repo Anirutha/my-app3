@@ -1,6 +1,6 @@
 import React from 'react'
 import Base from '../Base/Base'
-
+//title
 const DashBoard = () => {
   return (
   <Base

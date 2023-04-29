@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import Base from '../Base/Base';
 import { useHistory } from 'react-router-dom';
-
+//function
 function UpdateStudents({students, setStudents}) {
     const {id} = useParams();
      const editStudent = students[id]

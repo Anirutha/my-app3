@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Base from '../Base/Base'
 import { useHistory } from 'react-router-dom'
-
+ //Function
 
 function AddStudents({students, setStudents}) {
   const history = useHistory()
